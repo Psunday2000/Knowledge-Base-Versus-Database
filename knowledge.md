@@ -8,16 +8,3 @@
 | Rule-Based System    | Integral part of rule-based expert systems. | Data-driven applications often use databases as a backend. |
 | Query Language        | May use a rule-based language for expressing knowledge and reasoning (e.g., CLIPS, Prolog). | Typically employs Structured Query Language (SQL) for data retrieval and manipulation. |
 | Data Manipulation     | Emphasizes reasoning and inference, allowing for complex decision-making. | Primarily focuses on data storage and retrieval, with limited built-in reasoning. |
-| Example (CLIPS Rule)  | ```clips
-(defrule allergy
-  (symptom runny-nose)
-  (symptom itchy-eyes)
-  =>
-  (assert (diagnosis "Allergic Rhinitis"))
-)
-``` | N/A |
-| Example (SQL Query)   | N/A | ```sql
-SELECT product_name, price
-FROM products
-WHERE category = 'Electronics';
-``` |
